@@ -16,4 +16,4 @@ uTools 词典
 
 ## Contributors
 
-[vst93](https://github.com/vst93)
+[![vst93](https://avatars.githubusercontent.com/u/9971164?s=28)vst93](https://github.com/vst93)
