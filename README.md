@@ -1,6 +1,7 @@
 # uTools-Dictionary
 
-uTools 词典
+uTools plugin - Dictionary
+uTools 插件 - 词典
 
 支持中英文翻译
 
@@ -8,7 +9,7 @@ uTools 词典
 
 ## 数据来源
 
-有道词典 https://www.youdao.com
+有道词典 https://m.youdao.com
 
 ## Fork From
 

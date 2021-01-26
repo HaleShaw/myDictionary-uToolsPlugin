@@ -6,21 +6,11 @@
     "homepage": "https://github.com/HaleShaw/uTools-Dictionary",
     "main": "index.html",
     "logo": "logo.png",
-    "preload": "preload.js",
     "features": [
         {
             "code": "search_word",
-            "explain": "中英文翻译，音标朗读",
-            "cmds": [
-                "词典",
-                "有道",
-                "dictionary",
-                "youdao",
-                {
-                    "type": "over",
-                    "label": "词典"
-                }
-            ]
+            "explain": "中英文翻译，音标朗读，基于有道移动版网页。",
+            "cmds": ["词典", "dictionary", "音标", "phonetic", "翻译", "d"]
         }
     ]
 }
