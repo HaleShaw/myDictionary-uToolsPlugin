@@ -14,15 +14,6 @@ utools.onPluginEnter(({ code, type, payload }) => {
     }
 });
 
-$(document).keydown(e => {
-    switch (e.keyCode) {
-        case 13:
-            console.log(text);
-            lookUp(text);
-            break;
-    }
-});
-
 async function lookUp(word) {
     let contentFather = $('.content');
     word = word.trim();
@@ -86,7 +77,6 @@ function getPhonetic(data) {
         regPhonetic = /phonetic">([\W\w]*?)<\/span[\W\w]*?data-rel="([\W\w]*?)"/im;
         phonetics = regPhonetic.exec(data);
         if (phonetics != null) {
-            console.log(phonetics);
             let keySpan = $('<span>' + phonetics[1] + '</span>');
             let audio = $('<audio></audio>');
             audio.attr('src', phonetics[2]);
