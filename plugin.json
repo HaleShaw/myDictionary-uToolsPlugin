@@ -1,16 +1,16 @@
 {
     "pluginName": "词典",
+    "version": "1.0.0",
     "description": "中英词典插件",
-    "homepage": "https://github.com/HaleShaw/uTools-Dictionary",
     "author": "HaleShaw",
+    "homepage": "https://github.com/HaleShaw/uTools-Dictionary",
     "main": "index.html",
     "logo": "logo.png",
-    "version": "1.0.0",
     "preload": "preload.js",
     "features": [
         {
             "code": "search_word",
-            "explain": "词汇查询",
+            "explain": "中英文翻译，音标朗读",
             "cmds": [
                 "词典",
                 "有道",
