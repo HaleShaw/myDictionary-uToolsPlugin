@@ -1,11 +1,14 @@
 # uTools-Dictionary
 
 uTools plugin - Dictionary
+
 uTools 插件 - 词典
 
-支持中英文翻译
+![Dictionary](https://raw.githubusercontent.com/HaleShaw/uTools-Dictionary/master/Dictionary.gif)
 
-支持查询音标，朗读
+- 支持中英文翻译
+- 支持查询音标，朗读
+- 自动即时查询
 
 ## 数据来源
 
