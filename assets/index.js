@@ -7,9 +7,8 @@ utools.onPluginEnter(({ code, type, payload }) => {
         utools.setSubInput(({ text }) => {
             lookUp(text);
         }, '请输入需要查询的中英文内容');
-        if (type == 'over') {
+        if (type == 'over' || type == 'regex') {
             utools.setSubInputValue(payload);
-            lookUp(payload);
         }
     }
 });
